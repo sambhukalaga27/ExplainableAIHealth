@@ -32,5 +32,5 @@ jobs:
 
     - name: Validate app syntax
       run: |
-        python -c "import ast, sys; ast.parse(open('app.py').read()); print('app.py syntax OK')"
+        python -c "import ast, sys; ast.parse(open('streamlit_app.py').read()); print('streamlit_app.py syntax OK')"
         python -c "import streamlit, torch, cv2, shap, pandas, numpy; print('All imports OK')"
