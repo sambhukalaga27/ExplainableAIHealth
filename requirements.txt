@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+streamlit==1.46.1
+shap
+Pillow
+google-generativeai
+joblib
+glob2
+python-dotenv
